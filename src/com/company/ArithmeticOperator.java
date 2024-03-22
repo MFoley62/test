@@ -20,5 +20,8 @@ public class ArithmeticOperator {
 
         System.out.println("dollar Float2  " + dollarFF);
         System.out.println("dollar Double  " + dollarDD);
+
+
+        System.out.println("test test");
     }
 }
