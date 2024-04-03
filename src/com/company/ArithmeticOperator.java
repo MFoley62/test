@@ -3,25 +3,21 @@ package com.company;
 import java.lang.reflect.Type;
 
 public class ArithmeticOperator {
+    public int sum(int a, int b){
+        return a+b;
+    }
+
+    public static int sum2(int a, int b) {
+        int sum = a+b;
+        return sum;
+    }
     public static void main(String[] args) {
-        int dollar = 5;
-        float dollarF = dollar;
-        long dollarL = dollar;
-
-        float dollarFF = (float) dollar;
-        double dollarDD = (double) dollar;
+        ArithmeticOperator a = new ArithmeticOperator();
+        System.out.println(a.sum(2,3));
+        System.out.println(sum2(2,3));
 
 
-        System.out.println("Dollar int " + dollar);
-
-        System.out.println("dollar Float  " + dollarF);
-        System.out.println("dollar Long " + dollarL);
 
 
-        System.out.println("dollar Float2  " + dollarFF);
-        System.out.println("dollar Double  " + dollarDD);
-
-
-        System.out.println("test test");
     }
 }
